@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Quotology</string>
+    <string name="enter_quotation">Enter Quotation</string>
 </resources>

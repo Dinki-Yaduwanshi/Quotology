@@ -28,9 +28,9 @@ public class AddQuoteActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_quote);
 
         //bind views
-        quoteEditText = (EditText) findViewById(R.id.editTextQuote);
-        authorEditText = (EditText) findViewById(R.id.editTextAuthor);
-        addButton = (Button) findViewById(R.id.addButton);
+        quoteEditText = (EditText) findViewById(R.id.quote);
+        authorEditText = (EditText) findViewById(R.id.author);
+        addButton = (Button) findViewById(R.id.saveButton);
 
         //listener
         addButton.setOnClickListener(new View.OnClickListener() {
